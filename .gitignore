@@ -1,0 +1,21 @@
+Executáveis
+
+*.exe
+
+Arquivos objeto gerados na compilação
+
+*.o
+*.obj
+
+Arquivos de depuração
+
+*.pdb
+
+Arquivos temporários
+
+*.tmp
+*.bak
+
+Arquivos gerados pelo compilador
+
+*.out

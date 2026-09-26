@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Compilar projeto C",
+            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "${workspaceFolder}\\src\\main.c",
+                "${workspaceFolder}\\src\\produto.c",
+                "${workspaceFolder}\\src\\estoque.c",
+                "-o",
+                "${workspaceFolder}\\src\\output\\main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
